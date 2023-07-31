@@ -21,17 +21,47 @@
                     <li>Logout</li>
                 </ul>
                 <nav class="navbar">
-                    <img src="logo" class="logo desktop">
-                    <img src="assets/icons/nav-icon.png" class="mobile" />
+                    <img src="logo" class="logo desktop" />
+                    <div class="menu">
+                        <img src="assets/icons/nav-icon.png" class="mobile"
+                            id="menu" onclick="menuOverlay()" />
+                        <img src="assets/icons/close-icon.png"
+                            class="mobile"
+                            id="menu-close" />
 
-                    <ul class="desktop">
-                        <li>About</li>
-                        <li>Program</li>
-                        <li>join</li>
-                        <li>Sponsor</li>
-                        <li>News</li>
+                        <ul class="nav-links" id="nav-links">
+                            <li>About</li>
+                            <li>Program</li>
+                            <li>join</li>
+                            <li>Sponsor</li>
+                            <li>News</li>
 
-                    </ul>
+                        </ul>
+                        <div class="close">
+                            <img src="assets/icons/close-icon.png"
+                                class="mobile"
+                                id="menu-close" />
+                        </div>
+
+                    </div>
+
+                    <!-- <div class id="menu-overlay">
+
+                        <ul class="nav-links">
+                            <li>About</li>
+                            <li>Program</li>
+                            <li>join</li>
+                            <li>Sponsor</li>
+                            <li>News</li>
+
+                        </ul>
+                        <div class="close">
+                            <img src="assets/icons/close-icon.png"
+                                class="mobile"
+                                id="menu-close" />
+                        </div>
+                    </div> -->
+
                 </nav>
             </header>
             <section class="hero">
@@ -153,7 +183,6 @@
                     <p class="project-details">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua.</p>
-
                 </div>
 
             </div>
@@ -162,6 +191,6 @@
                 <div class="arrow down"></div>
             </div>
         </section>
-
+        <script src="/first-capstone-project/assets/scripts/index.js"></script>
     </body>
 </html>
