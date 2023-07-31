@@ -204,6 +204,14 @@ q {
   font-family: 'Lato-Regular' sans-serif;
   font-size: 16px;
   font-weight: 600;
+  transition-property: transform, box-shadow;
+  transition-duration: 0.1s;
+}
+
+.donate-btn:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  box-shadow: 0 3px 15px -2px;
 }
 
 .donate img {
@@ -257,6 +265,15 @@ q {
   width: 100px;
 }
 
+.arrow {
+  background-image: url(/first-capstone-project/assets/images/chevron-down-solid.svg);
+}
+
+.more-btn img {
+  width: 14px;
+  height: 50px;
+}
+
 .more-btn {
   display: flex;
   flex-direction: row;
@@ -273,11 +290,9 @@ q {
   height: 55px;
 }
 
-.arrow {
-  border: solid #f81404;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
+.more-btn:hover {
+  background-color: #fe4e37;
+  color: #fff;
 }
 
 .up {
@@ -288,6 +303,10 @@ q {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.arrow:hover {
+  border: solid #fff;
 }
 
 .menu {
@@ -319,6 +338,7 @@ q {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100vh;
   gap: 1rem;
 }
 
