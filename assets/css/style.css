@@ -206,6 +206,10 @@ q {
   font-weight: 600;
 }
 
+.donate img {
+  width: 100%;
+}
+
 .title-hr {
   border-top: 1px solid #fec6c0;
   width: 20%;
@@ -220,14 +224,18 @@ q {
 }
 
 .info p {
-  font-family: 'Lato-LightItalic';
+  font-family: 'Lato-Medium';
   color: #272a31;
 }
 
 .info p:first-of-type {
   color: #ec5242;
+  font-family: 'Lato-italic', sans-serif;
 }
 
+.project-details {
+  font-size: 14px;
+}
 .info hr {
   border-top: 1px solid #fec6c0;
   width: 20%;
@@ -243,6 +251,7 @@ q {
   display: grid;
   grid-template-columns: 40% 50%;
   padding-left: 1rem;
+  margin-bottom: 1rem;
 }
 .projects img {
   width: 100px;
