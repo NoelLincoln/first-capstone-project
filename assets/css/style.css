@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: Lato-Bold;
-  src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-Black.ttf);
+  src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-Bold.ttf);
 }
 
 @font-face {
@@ -110,9 +110,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/first-capstone-project/assets/images/values-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(/first-capstone-project/assets/images/values-bg.png);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   margin: 3rem 1rem;
   text-align: center;
   color: #f5f5f5;
@@ -148,7 +148,8 @@ ul {
 .values-reasons {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  align-items: center;
+  gap: 21px;
   border: 1px;
   border-style: solid;
   border-color: #f5f5f5;
@@ -160,10 +161,12 @@ ul {
 
 .values-reasons li:nth-child(2) > p {
   color: #f2603a;
+  font-family: 'Lato-Bold', sans-serif;
 }
 
 .values-reasons li:nth-child(3) > p {
   text-align: start;
+  font-family: 'Lato-Regular', sans-serif;
 }
 
 .grey-bg {
@@ -205,6 +208,11 @@ ul {
 
 .info p {
   font-family: 'Lato-LightItalic';
+  color: #272a31;
+}
+
+.info p:first-of-type {
+  color: #ec5242;
 }
 
 .info hr {
