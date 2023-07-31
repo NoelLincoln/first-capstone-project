@@ -18,8 +18,8 @@
 }
 
 @font-face {
-  font-family: Lato-LightItalic;
-  src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-LightItalic.ttf);
+  font-family: Lato-Italic;
+  src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-Italic.ttf);
 }
 
 * {
@@ -285,34 +285,20 @@ ul {
 
 .nav-links {
   display: none;
-}
-
-/* #menu-overlay {
-  display: none;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  text-align: center;
-  position: fixed;
-  z-index: 4;
-  width: 90%;
-  height: 100vh;
-  background-color: #fec6c0;
-  /* opacity: 0.5; */
-/* } */
-*/ .close {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.nav-links {
-  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   gap: 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+.close {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .partners {
