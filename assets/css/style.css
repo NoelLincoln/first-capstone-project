@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: Lato-Medium;
+  src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-Medium.ttf);
+}
+
+@font-face {
   font-family: Lato-BoldItalic;
   src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-BlackItalic.ttf);
 }
@@ -20,6 +25,11 @@
 @font-face {
   font-family: Lato-Italic;
   src: url(/first-capstone-project/assets/fonts/Lato2OFL/Lato-Italic.ttf);
+}
+
+@font-face {
+  font-family: Cocogoose-Pro-Block-Innerline;
+  src: url(/first-capstone-project/assets/fonts/cocogoose-pro/Cocogoose-Pro-Block-Innerline.ttf);
 }
 
 * {
@@ -102,10 +112,13 @@ ul {
 }
 
 .card p {
-  font-family: 'Lato-LightItalic', sans-serif;
+  font-family: 'Lato-Medium', sans-serif;
   font-size: 18px;
 }
 
+q {
+  font-family: 'Lato-Italic', sans-serif;
+}
 .values {
   display: flex;
   flex-direction: column;
