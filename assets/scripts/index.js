@@ -6,7 +6,6 @@ const menuclose = document.getElementById('menu-close');
 function menuOverlay() {
   if (menuicon.style.display === 'flex') {
     menuicon.style.display = 'none';
-    menumodal.style.display = 'flex';
   } else {
     menuicon.style.display = 'none';
     menuclose.style.display = 'block';
