@@ -2,6 +2,7 @@ const menuicon = document.getElementById('menu');
 const navlinks = document.getElementById('nav-links');
 const desktop = document.querySelector('.desktop');
 const menuclose = document.getElementById('menu-close');
+const logo = document.getElementById('logo');
 
 function menuOverlay() {
   if (menuicon.style.display === 'flex') {
@@ -9,6 +10,7 @@ function menuOverlay() {
   } else {
     menuicon.style.display = 'none';
     menuclose.style.display = 'block';
+    logo.style.display = 'none';
     navlinks.style.display = 'flex';
   }
 }
@@ -18,6 +20,7 @@ function closeMenuOverlay() {
   navlinks.style.display = 'none';
   menuicon.style.display = 'flex';
   menuclose.style.display = 'none';
+  logo.style.display = 'flex';
 }
 
 menuclose.addEventListener('click', closeMenuOverlay);

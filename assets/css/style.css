@@ -32,11 +32,25 @@
   src: url(/first-capstone-project/assets/fonts/cocogoose-pro/Cocogoose-Pro-Block-Innerline.ttf);
 }
 
+@font-face {
+  font-family: Cocogoose-Pro-Light;
+  src: url(/first-capstone-project/assets/fonts/cocogoose-pro/Cocogoose-Pro-Light.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato-Regular', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ec5242;
 }
 
 body {
@@ -170,6 +184,10 @@ q {
   padding: 5px 10px;
   margin: auto;
   width: 90%;
+}
+
+.values-reasons img {
+  width: 35px;
 }
 
 .values-reasons li:nth-child(2) > p {
@@ -310,9 +328,11 @@ q {
 }
 
 .menu {
-  /* display: flex; */
+  display: flex;
   height: auto;
   /* margin-right: 10px; */
+  justify-content: space-between;
+  gap: 2rem;
   background-color: #fff;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   top: 0;
@@ -323,13 +343,19 @@ q {
   padding-top: 10px;
 }
 
+.menu > h2 {
+  font-family: 'Cocogoose-Pro-Light', sans-serif;
+}
+
 .menu img {
+  width: 40px;
   padding-left: 1rem;
 }
 
 #menu-close {
   display: none;
   width: 40px;
+  height: 40px;
 }
 
 .nav-links {
