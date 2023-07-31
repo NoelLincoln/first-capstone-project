@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="assets/images/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="assets/images/amannatrustlogo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>LINC TECHNOLOGIES</b></h3>
+  <h3><b>AMANNATRUST</b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 # 📖 AMANNATRUST <a name="about-project"></a>
 
-**Linc Technologies** is a tech startup which aims to bridge the gap between businesses and end users. We focus on speed and reliability in our solutions.
+**Amannatrust** is a non governmental organization which formed with the aim to help needy children get access to education.
 
 ## 🛠 Built With <a name="built-with"></a>
 
