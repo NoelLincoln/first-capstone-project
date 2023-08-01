@@ -70,10 +70,14 @@ body {
 
 .card {
   text-align: start;
+  width: 85%;
 }
 
 .headline h1 {
   font-size: 3rem;
+}
+
+.headline-text {
 }
 
 .project {
