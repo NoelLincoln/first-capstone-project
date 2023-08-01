@@ -344,9 +344,10 @@ q {
   grid-template-columns: 40% 50%;
   padding-left: 1rem;
   margin-bottom: 1rem;
+  gap: 1rem;
 }
 .projects img {
-  width: 100px;
+  width: 100%;
 }
 
 .arrow {

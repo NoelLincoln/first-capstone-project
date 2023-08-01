@@ -1,0 +1,91 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
+}
+
+.campaign-donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid orangered;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: auto;
+}
+
+.campaign-donate-text {
+  color: orangered;
+  padding: 5px;
+}
+
+.campaign-donate:hover {
+  color: #f5f5f5;
+  background-color: orangered;
+}
+
+.campaign-donate:hover > p {
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+#logo {
+  padding-left: 18%;
+}
+
+.menu {
+  /* padding-left: 10%; */
+  padding-right: 25%;
+}
+
+.hero {
+  width: 70%;
+  margin: auto;
+  margin-top: 8rem;
+  align-items: flex-start;
+}
+
+.card {
+  text-align: start;
+}
+
+.headline h1 {
+  font-size: 3rem;
+}
+
+.project {
+  padding-left: 25%;
+  padding-right: 10%;
+  gap: inherit;
+}
+
+.more-btn {
+  width: 22%;
+}
+
+.projects img {
+  width: 100%;
+}
