@@ -17,6 +17,28 @@ body {
   display: flex;
 }
 
+.socials {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 5px;
+}
+
+.user-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-nav {
+  padding-top: 6px;
+  justify-content: flex-end;
+  padding-right: 20%;
+}
+
+.socials img {
+  width: 24px;
+  height: 20px;
+}
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -132,10 +154,21 @@ footer {
 }
 
 .donate-btn {
-  width: 40%;
+  width: 18rem;
+  margin-top: inherit;
 }
 
 .objectives-container {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.values-container {
+  flex-direction: row;
+  width: 60%;
+  gap: 0.25rem;
+}
+
+.values-reasons {
+  flex-direction: column;
 }
