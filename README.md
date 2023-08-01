@@ -202,4 +202,6 @@ I would like to thank the entire Microverse community and family for the support
 
 This project is [MIT](./LICENSE) licensed.
 
+[Cocogoose font](https://creativecommons.org/licenses/by-nc/4.0/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
