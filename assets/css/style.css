@@ -453,6 +453,7 @@ q {
   width: 100%;
   height: 100vh;
   gap: 1rem;
+  font-size: 3rem;
 }
 
 .nav-links li a {
