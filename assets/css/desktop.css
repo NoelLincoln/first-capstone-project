@@ -30,7 +30,7 @@ body {
 
 .top-nav {
   display: flex;
-  padding-top: 6px;
+  padding-top: 12px;
   justify-content: flex-end;
   padding-right: 20%;
   align-items: baseline;
