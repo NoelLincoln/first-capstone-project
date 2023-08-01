@@ -68,13 +68,37 @@ function loadEvents(pastEventsdata = [], startIndex = 0, count = 2) {
   return eventContent;
 }
 
+function loadEventsDesktop(pastEventsdata = []) {
+  let eventContent = '';
+  pastEventsdata.forEach((eventsdata) => {
+    eventContent += `
+            <div class="project">
+                <img src="/first-capstone-project/assets/images/${eventsdata.image}" />
+                <div class="info">
+                    <h4>${eventsdata.name}</h4>
+                    <p>${eventsdata.location}.</p>
+                    <hr />
+                    <p class="project-details">${eventsdata.details}</p>
+                </div>
+            </div>`;
+  });
+
+  return eventContent;
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   const eventsContainer = document.querySelector('.events-list');
   const showMoreBtn = document.getElementById('more-btn');
   const showLessBtn = document.getElementById('less-btn');
 
   // show the first two events
-  eventsContainer.innerHTML = loadEvents(pastEvents);
+  if (window.innerWidth <= 767) {
+    eventsContainer.innerHTML = loadEvents(pastEvents);
+  } else {
+    eventsContainer.innerHTML = loadEventsDesktop(pastEvents);
+    showMoreBtn.style.display = 'none';
+    showLessBtn.style.display = 'none';
+  }
 
   let startIndex = 2;
   const countToShow = 4;
