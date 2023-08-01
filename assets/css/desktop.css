@@ -29,6 +29,7 @@ body {
 }
 
 .top-nav {
+  display: flex;
   padding-top: 6px;
   justify-content: flex-end;
   padding-right: 20%;
@@ -82,6 +83,7 @@ body {
 .menu {
   /* padding-left: 10%; */
   padding-right: 25%;
+  top: 2rem;
 }
 
 .hero {
@@ -94,6 +96,7 @@ body {
 .card {
   text-align: start;
   width: 85%;
+  margin-left: 0;
 }
 
 .headline h1 {
