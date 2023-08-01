@@ -14,9 +14,12 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -36,7 +39,8 @@
 
 # 📖 AMANNATRUST <a name="about-project"></a>
 
-**Amannatrust** is a non governmental organization which formed with the aim to help needy children get access to education.
+**Amannatrust** is a project based on a non governmental organization formed with the aim to help needy children get access to education.
+I wou
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +49,23 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML, CSS and Javascript</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Design Tools</summary>
+  <ul>
+    <li>Figma</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Tools</summary>
+  <ul>
+    <li>Visual studio code</li>
   </ul>
 </details>
 
@@ -68,7 +88,15 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project :
+In order to set up and run the application you need:
+
+- A code editor preferably Visual Studio Code
+- A web browser preferably Google chrome.
+
+Basic requirements are needed in order to fully understand how the project fully works :
+
+- Basic knowledge of HTML, CSS, and JS (JavaScript).
+- How to work with Git and GitHub.
 
 ### Setup
 
@@ -110,7 +138,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using githubpages
+You can deploy this project using [GitHub Pages](https://pages.github.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +150,16 @@ You can deploy this project using githubpages
 
 - [ ] **Virtual assistant**
 - [ ] **Dark theme**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+The Live Demo of this Capstone Project is available now on GitHub Pages and Loom.
+
+- Live Demo Link on [GitHub pages](https://noellincoln.github.io/first-capstone-project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +189,12 @@ I would like to thank the entire Microverse community and family for the support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+## Image Credits
+
+- freepik.com
+- pngfind.com
+
+## License
 
 <!-- LICENSE -->
 
