@@ -47,47 +47,53 @@ const pastEvents = [
 const eventslist = document.querySelector('.events-list');
 const morebtn = document.querySelector('.more-btn');
 
-function loadEvents(pastEventsdata = []) {
+function loadEvents(pastEventsdata = [], startIndex = 0, count = 2) {
   let eventContent = '';
-  pastEventsdata.forEach((eventsdata) => {
+  const endIndex = Math.min(startIndex + count, pastEventsdata.length);
+
+  for (let i = startIndex; i < endIndex; i++) {
+    const eventsdata = pastEventsdata[i];
     eventContent += `
-            <div class="project">
-                <img src="/first-capstone-project/assets/images/${eventsdata.image}" />
-                <div class="info">
-                    <h4>${eventsdata.name}</h4>
-                    <p>${eventsdata.location}.</p>
-                    <hr />
-                    <p class="project-details">${eventsdata.details}</p>
-                </div>
-            </div>`;
-  });
+      <div class="project">
+        <img src="/first-capstone-project/assets/images/${eventsdata.image}" />
+        <div class="info">
+          <h4>${eventsdata.name}</h4>
+          <p>${eventsdata.location}.</p>
+          <hr />
+          <p class="project-details">${eventsdata.details}</p>
+        </div>
+      </div>`;
+  }
 
   return eventContent;
 }
 
-function loadTwoEvents(pastEventsdata = []) {
-  let eventContent = '';
+document.addEventListener('DOMContentLoaded', function () {
+  const eventsContainer = document.querySelector('.events-list');
+  const showMoreBtn = document.getElementById('more-btn');
+  const showLessBtn = document.getElementById('less-btn');
 
-  const firstTwoEvents = pastEventsdata.slice(0, 2);
+  // show the first two events
+  eventsContainer.innerHTML = loadEvents(pastEvents);
 
-  firstTwoEvents.forEach((eventsdata) => {
-    eventContent += `
-            <div class="project">
-                <img src="/first-capstone-project/assets/images/${eventsdata.image}" />
-                <div class="info">
-                    <h4>${eventsdata.name}</h4>
-                    <p>${eventsdata.location}.</p>
-                    <hr />
-                    <p class="project-details">${eventsdata.details}</p>
-                </div>
-            </div>`;
+  let startIndex = 2;
+  const countToShow = 4;
+
+  showMoreBtn.addEventListener('click', function () {
+    const moreEventsContent = loadEvents(pastEvents, startIndex, countToShow);
+    eventsContainer.innerHTML += moreEventsContent;
+    startIndex += countToShow;
+
+    if (startIndex >= pastEvents.length) {
+      showMoreBtn.style.display = 'none';
+      showLessBtn.style.display = 'flex';
+    }
   });
 
-  return eventContent;
-}
-
-window.addEventListener('load', () => {
-  const eventslist = document.querySelector('.events-list');
-
-  eventslist.innerHTML = loadTwoEvents(pastEvents);
+  showLessBtn.addEventListener('click', function () {
+    eventsContainer.innerHTML = loadEvents(pastEvents, 0, countToShow - 2);
+    startIndex = 0;
+    showMoreBtn.style.display = 'flex';
+    showLessBtn.style.display = 'none';
+  });
 });

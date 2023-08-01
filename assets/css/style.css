@@ -415,6 +415,10 @@ q {
   border: solid #fff;
 }
 
+.less-btn {
+  display: none;
+}
+
 .menu {
   display: flex;
   height: auto;
