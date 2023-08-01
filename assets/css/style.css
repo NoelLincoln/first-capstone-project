@@ -384,6 +384,7 @@ q {
 }
 
 .more-btn:hover {
+  cursor: pointer;
   background-color: #fe4e37;
   color: #fff;
 }
@@ -524,10 +525,6 @@ footer {
   justify-content: center;
   padding-left: 3rem;
   gap: 1rem;
-}
-
-.copyright {
-  width: 50%;
 }
 
 .copyright p {
