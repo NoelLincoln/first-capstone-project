@@ -44,14 +44,11 @@ const pastEvents = [
   },
 ];
 
-const eventslist = document.querySelector('.events-list');
-const morebtn = document.querySelector('.more-btn');
-
 function loadEvents(pastEventsdata = [], startIndex = 0, count = 2) {
   let eventContent = '';
   const endIndex = Math.min(startIndex + count, pastEventsdata.length);
 
-  for (let i = startIndex; i < endIndex; i++) {
+  for (let i = startIndex; i < endIndex; i + 1) {
     const eventsdata = pastEventsdata[i];
     eventContent += `
       <div class="project">
@@ -86,7 +83,7 @@ function loadEventsDesktop(pastEventsdata = []) {
   return eventContent;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   const eventsContainer = document.querySelector('.events-list');
   const showMoreBtn = document.getElementById('more-btn');
   const showLessBtn = document.getElementById('less-btn');
@@ -103,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let startIndex = 2;
   const countToShow = 4;
 
-  showMoreBtn.addEventListener('click', function () {
+  showMoreBtn.addEventListener('click', () => {
     const moreEventsContent = loadEvents(pastEvents, startIndex, countToShow);
     eventsContainer.innerHTML += moreEventsContent;
     startIndex += countToShow;
@@ -114,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  showLessBtn.addEventListener('click', function () {
+  showLessBtn.addEventListener('click', () => {
     eventsContainer.innerHTML = loadEvents(pastEvents, 0, countToShow - 2);
     startIndex = 0;
     showMoreBtn.style.display = 'flex';

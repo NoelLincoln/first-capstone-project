@@ -1,6 +1,5 @@
 const menuicon = document.getElementById('menu');
 const navlinks = document.getElementById('nav-links');
-const desktop = document.querySelector('.desktop');
 const menuclose = document.getElementById('menu-close');
 const logo = document.getElementById('logo');
 
