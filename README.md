@@ -187,6 +187,8 @@ If you like this project feel free to contact me.
 
 I would like to thank the entire Microverse community and family for the support and motivation.
 
+I would also like to thank [Cindy Shin](https://www.behance.net/adagio07) the original author of this design
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Image Credits

@@ -119,6 +119,7 @@ body {
 .card {
   text-align: start;
   width: 85%;
+  margin: auto;
   margin-left: 0;
 }
 
@@ -136,6 +137,7 @@ body {
   width: 70%;
   margin: auto;
 }
+
 .project {
   gap: 1rem;
 }
