@@ -129,10 +129,18 @@ body {
   padding-bottom: 3rem;
 }
 
+.partners hr {
+  width: 4%;
+}
+
 .partners-desktop {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+}
+
+.info > h4 {
+  font-size: 1.5rem;
 }
 
 .partners-logo {
@@ -150,7 +158,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding-left: 6rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .past-events {
@@ -202,6 +211,7 @@ a:visited {
   flex-direction: column;
   border-style: none;
   width: 100%;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 .values h3 {
@@ -210,6 +220,10 @@ a:visited {
 
 .values hr {
   width: 4%;
+}
+
+.values-reasons li:nth-child(2) {
+  font-size: 1.2rem;
 }
 
 .values-reasons li:nth-child(3) {
