@@ -121,6 +121,11 @@ ul {
   color: #f81404;
 }
 
+.headline > p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .headline h1 {
   text-transform: uppercase;
   color: #f81404;

@@ -52,6 +52,14 @@ body {
   font-size: 1rem;
 }
 
+.see-program p {
+  color: #f5f5f5;
+}
+
+.headline p {
+  font-size: 3rem;
+}
+
 .campaign-donate {
   display: flex;
   align-items: center;
@@ -101,7 +109,8 @@ body {
 }
 
 .headline h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: 'Lato-Bold', sans-serif;
 }
 
 .project {
@@ -162,20 +171,11 @@ footer {
 
 .see-program {
   margin-top: 2rem;
-
   border-top: 0;
   border-left: 0;
   border-right: 0;
-
   border-style: solid;
   border-color: #f5f5f5;
-  color: #f5f5f5;
-}
-
-.see-program a {
-}
-
-.see-program p {
   color: #f5f5f5;
 }
 
@@ -202,6 +202,14 @@ a:visited {
   flex-direction: column;
   border-style: none;
   width: 100%;
+}
+
+.values h3 {
+  font-size: 2rem;
+}
+
+.values hr {
+  width: 4%;
 }
 
 .values-reasons li:nth-child(3) {
