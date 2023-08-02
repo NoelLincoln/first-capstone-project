@@ -1,0 +1,269 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 5px;
+}
+
+.user-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-nav {
+  display: flex;
+  padding-top: 12px;
+  justify-content: flex-end;
+  padding-right: 20%;
+  align-items: baseline;
+}
+
+.socials img {
+  width: 14px;
+  height: 14px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
+  font-size: 1rem;
+  margin-left: 5rem;
+}
+
+.see-program p {
+  color: #f5f5f5;
+}
+
+.headline p {
+  font-size: 3rem;
+}
+
+.campaign-donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid orangered;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: auto;
+}
+
+.campaign-donate-text {
+  color: orangered;
+  padding: 5px;
+}
+
+.campaign-donate:hover {
+  color: #f5f5f5;
+  background-color: orangered;
+}
+
+.campaign-donate:hover > p {
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+#logo {
+  padding-left: 20%;
+}
+
+.menu {
+  /* padding-left: 10%; */
+  padding-right: 20%;
+  top: 2rem;
+}
+
+.hero {
+  width: 70%;
+  margin: auto;
+  margin-top: 8rem;
+  align-items: flex-start;
+}
+
+.hero h1 {
+  text-align: start;
+  font-size: 3rem;
+}
+
+.mission-logo {
+  display: flex;
+  width: 50%;
+  border: 1px solid lightgrey;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.card {
+  text-align: start;
+  width: 85%;
+  margin: auto;
+  margin-left: 0;
+}
+
+.headline h1 {
+  font-size: 4rem;
+  font-family: 'Lato-Bold', sans-serif;
+}
+
+.headline-about {
+  width: 100%;
+  align-items: center;
+}
+
+.quote {
+  width: 70%;
+  margin: auto;
+}
+
+.project {
+  gap: 1rem;
+}
+
+.more-btn {
+  width: 22%;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.partners {
+  padding-bottom: 3rem;
+}
+
+.partners hr {
+  width: 2%;
+  height: 2px;
+  background-color: orangered;
+}
+
+.partners-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.info > h4 {
+  font-size: 1.5rem;
+}
+
+.partners-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.events {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.title-hr {
+  width: 2%;
+  height: 2px;
+  background-color: orangered;
+}
+
+.past-events {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #2e2e2e;
+}
+
+.footer-about .donate-btn {
+  width: 18rem;
+  margin-top: inherit;
+  display: none;
+}
+
+.see-program {
+  margin-top: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: #f5f5f5;
+  color: #f5f5f5;
+}
+
+a:visited {
+  color: white;
+}
+
+.objectives-container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.values-container {
+  flex-direction: row;
+  width: 60%;
+  gap: 0.25rem;
+}
+
+.bg {
+  background-color: rgba(128, 128, 128, 0);
+}
+
+.values-reasons {
+  flex-direction: column;
+  border-style: none;
+  width: 100%;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.values h3 {
+  font-size: 2rem;
+}
+
+.values hr {
+  width: 4%;
+}
+
+.values-reasons li:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.values-reasons li:nth-child(3) {
+  margin-top: -1rem;
+}
+
+.donate img {
+  margin-top: 3rem;
+}
