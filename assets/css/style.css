@@ -259,6 +259,11 @@ q {
   font-family: 'Lato-Bold', sans-serif;
 }
 
+.values-reasons li:nth-child(2) {
+  color: orangered;
+  font-weight: 700;
+}
+
 .objective {
   display: flex;
   flex-direction: row;
