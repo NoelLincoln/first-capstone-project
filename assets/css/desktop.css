@@ -102,6 +102,20 @@ body {
   align-items: flex-start;
 }
 
+.hero h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.mission-logo {
+  display: flex;
+  width: 50%;
+  border: 1px solid lightgrey;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
 .card {
   text-align: start;
   width: 85%;
@@ -113,6 +127,15 @@ body {
   font-family: 'Lato-Bold', sans-serif;
 }
 
+.headline-about {
+  width: 100%;
+  align-items: center;
+}
+
+.quote {
+  width: 70%;
+  margin: auto;
+}
 .project {
   gap: 1rem;
 }
@@ -130,7 +153,9 @@ body {
 }
 
 .partners hr {
-  width: 4%;
+  width: 2%;
+  height: 2px;
+  background-color: orangered;
 }
 
 .partners-desktop {
@@ -160,6 +185,12 @@ body {
   gap: 20px;
   padding-left: 20rem;
   padding-right: 20rem;
+}
+
+.title-hr {
+  width: 2%;
+  height: 2px;
+  background-color: orangered;
 }
 
 .past-events {
