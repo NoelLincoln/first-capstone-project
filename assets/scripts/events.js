@@ -48,7 +48,7 @@ function loadEvents(pastEventsdata = [], startIndex = 0, count = 2) {
   let eventContent = '';
   const endIndex = Math.min(startIndex + count, pastEventsdata.length);
 
-  for (let i = startIndex; i < endIndex; i + 1) {
+  for (let i = startIndex; i < endIndex; i += 1) {
     const eventsdata = pastEventsdata[i];
     eventContent += `
       <div class="project">

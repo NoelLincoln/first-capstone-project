@@ -336,10 +336,7 @@ q {
 .grey-bg {
   background-color: aliceblue;
 }
-.bg {
-  width: 100%;
-  background-color: white;
-}
+
 .donate-btn {
   background-color: #fe4e37;
   display: flex;
@@ -614,7 +611,10 @@ footer {
   align-items: center;
   justify-content: center;
   padding-left: 3rem;
-  gap: 1rem;
+}
+
+footer img {
+  width: 11rem;
 }
 
 .footer-about {
