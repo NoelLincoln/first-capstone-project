@@ -40,7 +40,6 @@
 # 📖 AMANNATRUST <a name="about-project"></a>
 
 **Amannatrust** is a project based on a non governmental organization formed with the aim to help needy children get access to education.
-I wou
 
 ## 🛠 Built With <a name="built-with"></a>
 
